@@ -6,7 +6,7 @@ on:
       - main
     paths:
       #- 'thumbnail-microservice/**'
-      - '.github/workflows/**'
+      - '.github/**'
       - 'terraform/**'
   workflow_dispatch:
 
