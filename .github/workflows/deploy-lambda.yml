@@ -5,7 +5,9 @@ on:
     branches:
       - main
     paths:
-      - 'thumbnail-microservice/**'
+      #- 'thumbnail-microservice/**'
+      - '.github/workflows/**'
+      - 'terraform/**'
   workflow_dispatch:
 
 jobs:
