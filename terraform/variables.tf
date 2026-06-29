@@ -7,7 +7,7 @@ variable "aws_region" {
 variable "image_bucket_name" {
   description = "Name of the S3 bucket containing images"
   type        = string
-  default     = "rock-of-ages-image-storing-bucket-rk"
+  default     = "rock-of-ages-image-storing-bucket-rk" #your previous s3 bucket
 }
 
 variable "lambda_function_name" {
